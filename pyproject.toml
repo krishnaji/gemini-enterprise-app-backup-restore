@@ -1,0 +1,20 @@
+[project]
+name = "ge-app-backup-restore"
+version = "0.1.0"
+description = "Backup and restore tool for Gemini Enterprise App assets."
+dependencies = [
+    "google-auth>=2.20.0",
+    "requests>=2.31.0",
+]
+requires-python = ">=3.10"
+
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
+default = true
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+]
+

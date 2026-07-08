@@ -68,3 +68,4 @@ uv run python backup_restore.py restore \
   --backup-dir ./my-backup \
   --project <target_project_id>
 ```
+Note: This is a sample script created as refernce for app/agent back up and restore.
